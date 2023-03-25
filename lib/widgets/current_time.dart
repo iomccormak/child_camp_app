@@ -96,7 +96,9 @@ class _CurrentTimeState extends State<CurrentTime>
         );
       },
       pageBuilder: (context, animation, secondaryAnimation) {
-        return const NewScreen();
+        return const NewScreen(
+          animation: "ScaleTransition",
+        );
       },
     );
   }

@@ -129,7 +129,9 @@ class _CurrentChangeState extends State<CurrentChange>
         );
       },
       pageBuilder: (context, animation, secondaryAnimation) {
-        return const NewScreen();
+        return const NewScreen(
+          animation: "FadeTransition",
+        );
       },
     );
   }

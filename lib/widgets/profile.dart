@@ -76,7 +76,9 @@ class _ProfileState extends State<Profile> with TickerProviderStateMixin {
         );
       },
       pageBuilder: (context, animation, secondaryAnimation) {
-        return const NewScreen();
+        return const NewScreen(
+          animation: "ScaleTransition",
+        );
       },
     );
   }

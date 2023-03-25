@@ -73,15 +73,17 @@ class _SectionsState extends State<Sections> with TickerProviderStateMixin {
     return PageRouteBuilder(
       transitionDuration: const Duration(milliseconds: 300),
       transitionsBuilder: (context, animation, secondaryAnimation, child) {
-        animation = CurvedAnimation(parent: animation, curve: Curves.linear);
-        return ScaleTransition(
-          alignment: Alignment.topLeft,
-          scale: animation,
+        return SlideTransition(
+          position:
+              Tween<Offset>(begin: const Offset(1.0, 0.0), end: Offset.zero)
+                  .animate(animation),
           child: child,
         );
       },
       pageBuilder: (context, animation, secondaryAnimation) {
-        return const NewScreen();
+        return const NewScreen(
+          animation: "SlideTransition",
+        );
       },
     );
   }

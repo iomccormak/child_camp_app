@@ -107,7 +107,9 @@ class _AchievementLevelState extends State<AchievementLevel>
         );
       },
       pageBuilder: (context, animation, secondaryAnimation) {
-        return const NewScreen();
+        return const NewScreen(
+          animation: "FadeTransition",
+        );
       },
     );
   }

@@ -76,7 +76,9 @@ class DiamondBalance extends StatelessWidget {
         );
       },
       pageBuilder: (context, animation, secondaryAnimation) {
-        return const NewScreen();
+        return const NewScreen(
+          animation: "RotationTransition",
+        );
       },
     );
   }
