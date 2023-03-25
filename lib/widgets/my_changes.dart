@@ -39,7 +39,7 @@ class _MyChangesState extends State<MyChanges> with TickerProviderStateMixin {
         left: 213.w,
         right: 19.66.w,
         top: 727.h,
-        bottom: 15.14,
+        bottom: 15.14.h,
       ),
       child: RotationTransition(
         turns: const AlwaysStoppedAnimation(2.32 / 360),

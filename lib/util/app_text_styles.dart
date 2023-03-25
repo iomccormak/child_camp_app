@@ -17,6 +17,6 @@ abstract class AppTextStyles {
     color: AppColors.purple,
     fontSize: 15.sp,
     fontWeight: FontWeight.w600,
-    fontFamily: 'Spartan',
+    fontFamily: fontFamilySpartan,
   );
 }

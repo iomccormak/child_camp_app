@@ -39,7 +39,7 @@ class _SectionsState extends State<Sections> with TickerProviderStateMixin {
         left: 208.w,
         right: 23.06.w,
         top: 634.h,
-        bottom: 103.88,
+        bottom: 103.88.h,
       ),
       child: RotationTransition(
         turns: const AlwaysStoppedAnimation(-3.75 / 360),
