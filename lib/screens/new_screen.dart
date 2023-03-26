@@ -19,7 +19,7 @@ class NewScreen extends StatelessWidget {
               style: AppTextStyles.classicTitleStyle,
             ),
             Text(
-              'Это была $animation анимация',
+              'Это был $animation переход',
               style: AppTextStyles.buttonStyle,
             )
           ],
