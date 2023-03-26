@@ -74,9 +74,9 @@ class _MyChangesState extends State<MyChanges> with TickerProviderStateMixin {
       transitionDuration: const Duration(milliseconds: 300),
       transitionsBuilder: (context, animation, secondaryAnimation, child) {
         return SlideTransition(
-          position: Tween<Offset>(
-                  begin: const Offset(-1.0, 0.0), end: Offset.zero)
-              .animate(animation),
+          position:
+              Tween<Offset>(begin: const Offset(-1.0, 0.0), end: Offset.zero)
+                  .animate(animation),
           child: child,
         );
       },

@@ -54,7 +54,7 @@ class _AchievementLevelState extends State<AchievementLevel>
               width: 301.66.w,
               height: 122.h,
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: AppColors.white,
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: const [AppBoxShadows.classicBoxShadow],
               ),

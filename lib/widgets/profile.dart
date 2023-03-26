@@ -21,6 +21,7 @@ class _ProfileState extends State<Profile> with TickerProviderStateMixin {
     controller =
         AnimationController(vsync: this, duration: const Duration(seconds: 6));
     animation = CurvedAnimation(parent: controller, curve: Curves.linear);
+
     controller.repeat();
   }
 
