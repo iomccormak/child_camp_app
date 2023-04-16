@@ -1,16 +1,5 @@
-# child_camp_app
+# First task: UI Implementation
 
-A new Flutter project.
+Реализация главного экрана для приложения детского лагеря.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/92734231/232347094-9f576210-7914-4bbb-9b67-1f344ca08f1d.png)
